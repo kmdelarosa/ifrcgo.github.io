@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Appeals</title>
+  <meta name="description" content="">
+
+  <link rel="canonical" href="/appeals/">
+  <link rel="alternate" type="application/rss+xml" title="Go Project Lab" href="/feed.xml">
+
+  <link rel="stylesheet" href="/assets/styles/main.css">
+
+  <link rel="author" type="text/plain" href="humans.txt" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="IFRC Disaster Appeals">
+  <meta itemprop="name" content="GO Appeals">
+  <meta itemprop="description" content="IFRC Disaster Appeals" >
+  <meta itemprop="image" content="" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@publisher_handle" >
+  <meta name="twitter:title" content="GO Appeals" >
+  <meta name="twitter:description" content="IFRC Disaster Appeals" >
+  <meta name="twitter:creator" content="@author_handle" >
+  <meta name="twitter:image" content="" >
+
+  <!-- bower:css -->
+  <!-- endbower -->
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/assets/styles/vendor/leaflet.css">
+  <link rel="stylesheet" href="/assets/styles/vendor/introjs.css">
+  <link rel="stylesheet" href="/assets/styles/vendor/jquery.dataTables.css">
+  <link rel="stylesheet" href="/assets/styles/vendor/dc.css">
+  <link rel="stylesheet" href="/assets/styles/vendor/c3.css">
+  <!-- endinject -->
+
+  
+
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Go Project Lab" />
+</head>
+
+<body>
+  <!--[if lt IE 10]>
+  <div id="nocando">
+  <h1>No can do!</h1>
+  <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+</div>
+<![endif]-->
+<!-- Start Top Bar -->
+<div class="top-bar medium-10">
+<div class="top-bar-left">
+    <a href=""><img class="logo" src="/assets/logos/logo_test_Go.png"></a>
+</div>
+<div class="top-bar-right">
+
+    <ul class="menu vertical medium-horizontal expanded" data-responsive-menu="drilldown medium-dropdown">
+      
+      
+      <li><a href="http://ifrcgo.org" class="hvr-underline-reveal">Home</a></li>
+      
+      
+      
+      <li><a href="/#coredatasets" class="hvr-underline-reveal">Core Datasets</a></li>
+      
+      
+      
+      <li><a href="/about" class="hvr-underline-reveal">About</a></li>
+      
+      
+      
+      
+      <li class="external"><a href="http://ifrc.org" class="hvr-underline-reveal">IFRC.org</a></li>
+      
+      
+      
+      <li class="external"><a href="https://fednet.ifrc.org/CookieAuth.dll?GetLogon?curl=Z2F&reason=0&formdir=2" class="hvr-underline-reveal">FedNet</a></li>
+      
+      
+      
+      <li class="external"><a href="https://www-secure.ifrc.org/DMISII/Pages/00_Home/login.aspx" class="hvr-underline-reveal">DMIS</a></li>
+      
+      
+    </ul>
+</div>
+</div>
+<!-- End Top Bar -->
+
+
+
+
+
+
+  <nav aria-label="You are here:" role="navigation" class="row">
+
+    <ul class="breadcrumbs" vocab="http://schema.org/" typeof="BreadcrumbList">
+      <li><a href=/>Home</a></li>
+
+    <!-- Iteration breadcrumb item -->
+    
+    
+
+      <!-- Skip if root -->
+      
+        
+
+      <!-- Skip if root -->
+      
+
+      <!-- Skip if language directory -->
+      
+
+      <!-- Get breadcrumb title. Insert snippet from configuration description to translates breadcrumb if language plugin is installed and YAML subset is set -->
+      
+
+      <!-- SEO data -->
+      
+
+      <li class=" active" property="itemListElement" typeof="ListItem">
+        
+        <span property="name">Appeals</span>
+        
+        <meta property="position" content="1" />
+      </li>
+
+    
+
+    </ol>
+
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <h1 class="medium-12 column"></h1>
+</div>
+
+<div class="row">
+  <div class="small-8 large-12 columns">Below is a directory of the current appeal pages and appeal plus pages. Appeal plus pages have extra information provided by those working in the operation such as key figures, contacts and useful links. If you want an appeal page upgraded to an appeal plus page please contact <a href="mailto:ifrcgoproject@gmail.com">ifrcgoproject@gmail.com</a> with the request.</div>
+</div>
+
+<div class="row">
+<div class="section-header small-centered"><h1>Current Appeal Plus pages</h1></div>
+<div class="row small-up-1 medium-up-2 large-up-3">
+  
+    
+  
+    
+      <div class="column"><a href="mdrtr003">Turkey - Population Movement</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrua007">Ukraine - Complex Emergency</a></div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrgr001">Greece - Population Movement</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrrs011">Serbia - Population Movement</a></div>
+    
+  
+    
+      <div class="column"><a href="mdret016">Ethiopia - Drought</a></div>
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrso005">Somalia - Drought</a></div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrke039">Kenya - Drought</a></div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrmg012">Madagascar - Tropical Cyclone Enawo</a></div>
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdr60003">Regional Coordination Food Crisis in Africa</a></div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrsl007">Sierra Leone - Flood and Landslides</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrnp009">Nepal - Monsoon Flods and Landslides</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrbd020">Bangladesh - Floods</a></div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="nigeria_food_insecurity_2017">Nigeria Food insecurity</a></div>
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="india_bihar_floods">Bihar Floods</a></div>
+    
+  
+</div>
+</div>
+<div class="row">
+<div class="section-header small-centered"><h1>All Appeal Pages</h1></div>
+<div class="row small-up-1 medium-up-2 large-up-3">
+  
+    
+      <div class="column"><a href="mdrsy003">Syria - Syria Complex Emergency</a></div>
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrsl005">Sierra Leone - Ebola Virus Disease</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrnp008">Nepal - Earthquake</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrit002">Italy - Population Movement</a></div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdr42003">Zika Virus Disease Global Response</a></div>
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrec012">Ecuador - Earthquake</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrlk005">Sri Lanka - Floods & Landslides</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrug038">Uganda - Population Movement</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrkp008">DPR Korea - Floods</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrht013">Haiti - Hurricane Matthew</a></div>
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrdo009">Dominican Republic - Floods</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrph023">Philippines - Typhoon Nock-ten</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrmn006">Mongolia - Severe Winter</a></div>
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrbd018">Bangladesh - Population Movement</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrpe012">Peru - Floods</a></div>
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdrsd024">Sudan - Population Movement</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrlk006">Sri Lanka - Floods & Landslides</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrbd019">Bangladesh - Cyclone Mora</a></div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="column"><a href="mdr49009">Hurricane Irma - St Kitts and Antigua.</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrcu004">Cuba - Hurricane Irma</a></div>
+    
+  
+    
+      <div class="column"><a href="mdrdm003">Dominica - Hurricane Maria</a></div>
+    
+  
+    
+  
+    
+      <div class="column"><a href="south_sudan_food_insecurity_2017">South Sudan Food insecurity</a></div>
+    
+  
+    
+      <div class="column"><a href="european-migration">European Migration</a></div>
+    
+  
+    
+  
+</div>
+</div>
+
+
+
+<footer>
+ <div class="row small-12 large-up-5">
+  <h6>The International Federation of Red Cross and Red Crescent Societies (IFRC) is the world's largest humanitarian organization, with 190 member National Societies. As part of the International Red Cross and Red Crescent Movement, our work is guided by seven fundamental principles; humanity, impartiality, neutrality, independence, voluntary service, unity and universality.</h6>
+ </div>
+</footer>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-84297335-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<!-- inject:js -->
+<script src="/assets/scripts/vendor/d3.js"></script>
+<script src="/assets/scripts/vendor/index.js"></script>
+<script src="/assets/scripts/vendor/jquery.js"></script>
+<script src="/assets/scripts/vendor/leaflet-src.js"></script>
+<script src="/assets/scripts/vendor/isotope.pkgd.min.js"></script>
+<script src="/assets/scripts/vendor/papaparse.js"></script>
+<script src="/assets/scripts/vendor/intro.js"></script>
+<script src="/assets/scripts/vendor/jquery.dataTables.js"></script>
+<script src="/assets/scripts/vendor/topojson.js"></script>
+<script src="/assets/scripts/vendor/crossfilter.min.js"></script>
+<script src="/assets/scripts/vendor/dc.js"></script>
+<script src="/assets/scripts/vendor/c3.js"></script>
+<!-- endinject -->
+
+<script>
+var worldmap = '/assets/map/worldmap.json';
+</script>
+
+<script src="https://rawgit.com/SimonbJohnson/HDX-3W/master/js/dc.leaflet.js" type="text/javascript"></script>
+
+<!-- <script src="/assets/scripts/main.min.js"></script> -->
+
+
+
+</body>
+
+</html>
